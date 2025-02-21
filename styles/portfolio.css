@@ -75,10 +75,15 @@
 
 .portfolio-list__item {
   flex-basis: calc((100% - 60px) / 3);
-  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
-    0px 1px 1px 0px #0000001f;
-
+ 
   background-color: var(--c-white);
+}
+
+.portfolio-list__item:hover,
+.portfolio-list__item:focus{
+  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
+  0px 1px 1px 0px #0000001f;
+
 }
 
 .portfolio-list__title {
